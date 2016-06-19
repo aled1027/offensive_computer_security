@@ -1,0 +1,66 @@
+- virtualbox
+    - http://askubuntu.com/questions/465454/problem-with-the-installation-of-virtualbox
+- OSCP
+- http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/
+- https://tech.slashdot.org/
+- gcc.godbolt
+
+- Project
+    - Maximillian Follner
+
+- Lecture 1
+    - hacking: the art of exploitation 2nd edition
+        - main textbook
+    - the web application hacker's handbook second edition
+        - used in part second half of class
+    - other aux book
+        - secure coding in c and c++ second edition
+- Lecture 2
+    - secure coding in c and c++ second edition
+    - hijack EIP
+        - instruction pointer
+    - `wchar_t`
+        - sizeof compile time
+        - strlen runtime
+        - wcslen
+    - take over function pointers
+        - good because they get executed
+    - global offset table
+        - holds absolute addresses for libraries
+        - run time linker
+        - finds real address
+        - passed control
+        - RTL is not write-protected
+        - learn more with objdump
+    - .dtors section
+        - .ctors constructor
+        - .dtors destroys
+    - dynamic compiling
+        - executable does not contain library code
+    - static compiling
+        - executable includes library code
+        - so can take executable another system and it should work
+    - reading 
+        - 0x260 to 0x280 (HAOE)
+- Lecture 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
