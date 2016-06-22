@@ -42,7 +42,13 @@
         - so can take executable another system and it should work
     - reading 
         - 0x260 to 0x280 (HAOE)
+- hw2
+    - strncpy does not add null terminator to the end
 - Lecture 3
+    - reading arbitrary memory addresses with string formatting
+    - see HAOE book for better reference
+- Lecture 4
+    - https://youtu.be/MnmX911MqMU?t=1395
 
 
 
